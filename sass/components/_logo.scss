@@ -41,14 +41,13 @@
 
     margin-top: 10px;
 
-    // color: gray;
+    color: blue;
 
-    // color: rgba(255,255,255,0);
-    // background-image: linear-gradient(var(--ukraine-blue-color), var(--ukraine-yellow-color));
-    background-image: -webkit-linear-gradient(var(--ukraine--blue-color) 50%, var(--ukraine--yellow-color) 50%);
+
+    background: linear-gradient(blue 50%, yellow 50%);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 
 
 }
@@ -57,7 +56,6 @@
 
     margin-top: 10px;
 
-    
 
    
 }

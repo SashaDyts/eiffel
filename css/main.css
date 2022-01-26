@@ -109,8 +109,8 @@ img {
       align-self: center;
   margin-top: 10px;
   color: blue;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, blue), color-stop(50%, yellow));
-  background: linear-gradient(blue 50%, yellow 50%);
+  background: -webkit-gradient(linear, left top, left bottom, from(blue), to(yellow));
+  background: linear-gradient(blue, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

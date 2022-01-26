@@ -41,16 +41,8 @@
 
     margin-top: 10px;
 
-    color: blue;
 
-
-    background: -moz-linear-gradient(top, blue, yellow);
-    background: -webkit-linear-gradient(top, blue, yellow);
-    background: -o-linear-gradient(top, blue, yellow);
-    background: -ms-linear-gradient(top, blue, yellow);
-    background: linear-gradient(top, blue, yellow);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
     
 
 
@@ -60,7 +52,7 @@
 
     margin-top: 10px;
 
-
+    
    
 }
 .logo__ei {
@@ -72,4 +64,13 @@
 .logo__el {
     color: red;
 }
+.logo__tra {
+    color: blue;
+}
+.logo__vel {
+    color: rgb(194, 194, 0);
+}
 
+.icon-vivaro {
+    fill: rgb(52, 22, 161);
+}

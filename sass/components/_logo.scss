@@ -41,11 +41,13 @@
 
     margin-top: 10px;
 
-    color: transparent;
-    -webkit-background-clip: text;
-	background-clip: text;
-    // background-image: linear-gradient(var(--ukraine-blue-color), var(--ukraine-yellow-color));
-    background-image: linear-gradient(var(--ukraine--blue-color) 50%, var(--ukraine--yellow-color) 50%);
+    color: gray;
+
+    // color: transparent;
+    // -webkit-background-clip: text;
+	// background-clip: text;
+    // // background-image: linear-gradient(var(--ukraine-blue-color), var(--ukraine-yellow-color));
+    // background-image: linear-gradient(var(--ukraine--blue-color) 50%, var(--ukraine--yellow-color) 50%);
 
 }
 .logo__eiffel {

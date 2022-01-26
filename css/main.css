@@ -110,7 +110,7 @@ img {
   margin-top: 10px;
   color: blue;
   background: -webkit-gradient(linear, left top, left bottom, from(blue), to(yellow));
-  background: linear-gradient(blue, yellow);
+  background: linear-gradient(top, blue, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

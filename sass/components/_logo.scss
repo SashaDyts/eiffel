@@ -44,7 +44,11 @@
     color: blue;
 
 
-    background: linear-gradient(blue, yellow);
+    background: -moz-linear-gradient(top, blue, yellow);
+    background: -webkit-linear-gradient(top, blue, yellow);
+    background: -o-linear-gradient(top, blue, yellow);
+    background: -ms-linear-gradient(top, blue, yellow);
+    background: linear-gradient(top, blue, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     

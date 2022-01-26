@@ -62,11 +62,9 @@ img {
 
 :root {
   --header-bg-color: rgb(18, 15, 20);
-  --main-bg-color: rgb(18, 9, 71);
+  --main-bg-color: white;
   --logo-color: black;
   --logo-bus-color: black;
-  --ukraine--blue-color: blue;
-  --ukraine--yellow-color: yellow;
 }
 
 .header {
@@ -74,6 +72,8 @@ img {
 }
 
 .container__header {
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -138,6 +138,6 @@ img {
 }
 
 .icon-vivaro {
-  fill: #3416a1;
+  fill: #0720af;
 }
 /*# sourceMappingURL=main.css.map */

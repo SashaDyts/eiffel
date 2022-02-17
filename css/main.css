@@ -36,8 +36,7 @@ img {
 }
 
 .section {
-  height: 100px;
-  background-color: var(--main-bg-color);
+  padding: 0 15px 0 15px;
 }
 
 .visually-hidden {
@@ -62,13 +61,14 @@ img {
 
 :root {
   --header-bg-color: rgb(18, 15, 20);
-  --main-bg-color: white;
+  --main-bg-color: rgb(245, 226, 226);
   --logo-color: black;
   --logo-bus-color: black;
 }
 
 .header {
-  background-color: var(--header-bg-color);
+  background-color: #030352;
+  height: 1000px;
 }
 
 .container__header {
@@ -134,10 +134,24 @@ img {
 }
 
 .logo__vel {
-  color: #c2c200;
+  color: #d3d314;
+}
+
+.section__company {
+  background-color: gray;
 }
 
 .icon-vivaro {
-  fill: #0720af;
+  fill: #030352;
+}
+
+.section__perevez {
+  height: 100px;
+  background-color: #1717a1;
+}
+
+.section__contacts {
+  height: 100px;
+  background-color: #a01111;
 }
 /*# sourceMappingURL=main.css.map */
